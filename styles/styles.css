@@ -23,9 +23,9 @@
   --heading-highlight-color: #ffea00;
   --overlay-text-color: var(--text-color);
   --highlight-text-color: var(--text-color);
-  /*Begin customizations for weather.com */
+  /*Begin customizations for weather.com 
   --primary-button-background: #1b4de4;
-  --primary-brand: #1b4de4;
+  --primary-brand: #1b4de4; */
   
 
   /* fonts */
@@ -52,13 +52,9 @@
   --nav-height: 150px;
 
   /* buttons */
-  /*Begin customizations for weather.com */
-  /*--button-background-color: var(--color-yellow);*/
-  --button-background-color: var(--primary-button-background);
+  --button-background-color: var(--color-yellow);
   --button-border-radius: 0;
-  /*Begin customizations for weather.com */
-/*  --button-text-color: var(--text-color); */
-  --button-text-color: var(--text-color-light); 
+  --button-text-color: var(--text-color); 
   --button-padding: 1em 2.5em;
 
   /* default content */
@@ -71,9 +67,7 @@ body {
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
- /*Begin customizations for weather.com */
- /* background-color: var(--background-color); */
-  background-image: linear-gradient(0deg,#d8eeee,#d8eeee 25%,#64b3c9 65%,#005986 90%,#005986);
+  background-color: var(--background-color);
   display: none;
 }
 
